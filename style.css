@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Archivo+Black&family=Bodoni+Moda:wght@400;900&family=Chakra+Petch:ital,wght@0,400;1,300&family=Foldit:wght@100&family=Gravitas+One&family=Kalam:wght@700&family=Lato:ital,wght@0,400;1,700&family=Merriweather&family=Poppins:wght@400;500&family=Roboto:wght@100;300&family=Rubik+Mono+One&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.header {
+   display: flex;
+   margin: 2%;
+   justify-content: space-between;
+}
+
+.head {
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+.head .logo  img{
+   width: 100px;
+   height:30px;
+}
+
+.head .menu {
+   margin-left: 3%;
+}
+.head .menu a
+{
+   margin: 8px;
+   text-decoration: none;
+   color: black;
+   font-family: 'poppins',sans-serif;
+   font-size: 13px;
+   font-weight: 500;
+}
+
+.btn {
+   width: 100px;
+   height: 40px;
+   background-color: #5955b3;
+   border: transparent;
+   color: white;
+   border-radius: 4px;
+   font-family: 'poppins';
+   margin-right: 11%;
+}
+
+
+.body-part
+{
+   display: flex;
+   justify-content:center;
+   /* margin: 20px; */
+}
+
+.body-part .content{
+   margin-top: 90px;
+   
+}
+.body-part .content h1 {
+   font-size: 3rem;
+   margin-bottom: 3%;
+   font-family: 'poppins', serif;
+   color: #3c2e60;
+}
+
+#Crush {
+   color:#5955b3;
+}
+.body-part .content p {
+   font-size: 13px;
+   font-family: 'poppins';
+   margin-bottom: 9%;
+}
+.img-part img{
+   width: 550px;
+   height: 500px;
+}
+
+.btn-last {
+   width: 150px;
+   height: 40px;
+   background-color: #5955b3;
+   border: transparent;
+   color: white;
+   border-radius: 4px;
+   font-family: 'poppins';
+}
